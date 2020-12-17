@@ -7,7 +7,16 @@
       xmlns:p="http://primefaces.org/ui"
       xmlns:f="http://xmlns.jcp.org/jsf/core" >
 <link rel="stylesheet" type="text/css" href="style.css"></link>
+
+<h:head />
 <h:body>
+    <h:form>
+
+
+
+
+
+
     <nav class="navigation-bar">
         <img class="logo" src="assets/logo.png"></img>
         <a style = "cursor: pointer;"   class = "a" >Início</a>
@@ -15,9 +24,11 @@
         <a style = "cursor: pointer;"  class = "a" >BitRewards</a>
         <a style = "cursor: pointer;"  class = "a" >BitCard</a>
         <a style = "cursor: pointer;"  class = "a" >Sobre</a>
-        <button href = "#"  class = "rightbutton">Login</button>
-        <button href = "#"  class = "button">Criar BitConta</button>
+        <h:commandButton class = "button" value="LOGIN" action ="/login?faces-redirect=true"/>
+        <h:commandButton class = "button" value="CADASTRE-SE" />
+
     </nav>
+    </h:form>
     <ui:insert name="conteudo" ></ui:insert>
 
     <nav class="navigation-footer">

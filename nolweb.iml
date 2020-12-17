@@ -20,7 +20,7 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
-          <factory-entry name="nolweb" />
+          <factory-entry name="nolweb" value="a8a9add8-5aae-4061-9609-f3a35a18e8bf" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>
@@ -74,5 +74,6 @@
     <orderEntry type="library" name="Maven: jakarta.validation:jakarta.validation-api:2.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.postgresql:postgresql:42.2.18" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.checkerframework:checker-qual:3.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.primefaces:primefaces:8.0" level="project" />
   </component>
 </module>
